@@ -7,11 +7,11 @@
 #define DEBUG_OUTPUT 0
 
 // pin settings
-#define TRHUSTER_LEFT_PIN 9 	// D9
-#define TRHUSTER_RIGHT_PIN 8	// D8
+#define TRHUSTER_LEFT_PIN 9 	// D9 // PWM out
+#define TRHUSTER_RIGHT_PIN 8	// D8 // PWM out
 #define DRIVE_DIRECTION_PIN 2	// D2
-#define POT_1_PIN 0				// A0
-#define POT_2_PIN 1				// A1
+#define POT_1_PIN 0				// A0 // thrust
+#define POT_2_PIN 1				// A1 // steering
 
 // max min values
 #define PWM_FWD_MAX 180
